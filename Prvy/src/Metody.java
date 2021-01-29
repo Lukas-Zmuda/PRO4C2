@@ -24,6 +24,8 @@ public class Metody {
 		int[] mojePole = vytvorPole(7, -1);
 		vypisPole(mojePole);
 		
+		System.out.println(spocitaj(1, 26, 45, 789, 777, 98));
+		
 
 	}
 	
@@ -84,5 +86,19 @@ public class Metody {
 		return pole;
 	}
 	
+	static double spocitaj(int a, int b) {
+		return a + b;
+	}
+	static double spocitaj(int a, int b, int c) {
+		return a + b + c;
+	}
+	
+	static double spocitaj(int... parametre) {
+		double suma = 0;
+		for(int i = 0; i < parametre.length; i++) {
+			suma += parametre[i];
+		}
+		return suma;
+	}
 
 }
