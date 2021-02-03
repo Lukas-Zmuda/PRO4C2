@@ -25,8 +25,6 @@ public class Metody {
 		vypisPole(mojePole);
 		
 		System.out.println(spocitaj(1, 26, 45, 789, 777, 98));
-		
-
 	}
 	
 	//metoda bez navratoveho typu
