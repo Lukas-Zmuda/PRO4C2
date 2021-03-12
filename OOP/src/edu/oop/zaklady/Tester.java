@@ -1,5 +1,7 @@
 package edu.oop.zaklady;
 
+import edu.oop.zapuzdrenie.Ucet;
+
 public class Tester {
 
 	public static void main(String[] args) {
@@ -38,6 +40,10 @@ public class Tester {
 		Ziak z4 = new Ziak("Peter", "Pan", "3.C");
 		z4.info();
 		
+		Ucet u;
+		u = new Ucet();
+		
+		u.info();
 		
 		
 	}
