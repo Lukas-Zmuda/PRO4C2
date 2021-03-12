@@ -1,3 +1,4 @@
+package edu.oop.zaklady;
 
 public class Tester {
 
